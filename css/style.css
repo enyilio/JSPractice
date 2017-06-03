@@ -1,0 +1,28 @@
+.titleClass{
+
+	margin: 0;
+}
+
+#strId{
+	color:#aa00ff;
+	font-size: 30px;
+}
+
+.slogan{
+
+	    padding: 150px;
+    /* margin: 0 auto; */
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 1px 2px #666;
+}
+
+.bgm{
+
+	background-image: linear-gradient(to right, rgb(146, 254, 157) 0%, rgb(0, 201, 255) 100%); 
+	left: -1069px; 
+	top: -1245px;
+
+	height:600px; 
+}

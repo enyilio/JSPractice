@@ -12,15 +12,13 @@
 		<![endif]-->
 	</head>
 	<body>
-		
-		<h1>餐廳點餐機</h1>
-		<p>服務生:您好，請問想要點些什麼呢？</p>
-		<p>顧客：給我<input type="text" id="hamNumid">漢堡，再來<input type="text" id="cokeNumid">杯可樂。</p>
-		<p>服務生: <input type="button" id="countId" value="計算中">，好的，總計是<em id="totalId"></em>元</p>
-		
-		
+		<div class="container">
+		<p>請輸入你想吃的東西<em><input type="text" id="foodId" placeholder="輸入食物名稱"></em><input type="button" id="butfood" value="送出"></p>
+
+		<p><em id="giveFood"></em></p>
+		</div>
+		<script src="js/switch.js"></script>
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="js/humNum.js"></script>
 	</body>
 </html>
